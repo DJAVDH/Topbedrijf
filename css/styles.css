@@ -1,0 +1,223 @@
+/* Reset & basics */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Header styles */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.main-nav a.active,
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content containers */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Login page */
+.login-main h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.login-form {
+  max-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #888;
+  border-radius: 3px;
+}
+
+.login-form button {
+  padding: 12px 0;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #222;
+}
+
+.signup-prompt {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.signup-prompt a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* About us page */
+.about-main h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.company-story p {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.top-companies h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.company-cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-image-placeholder {
+  width: 120px;
+  height: 120px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+/* Company Search page */
+.search-main h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.search-bar-section {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.search-form input[type="text"] {
+  flex-grow: 1;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #888;
+  border-radius: 3px;
+}
+
+.search-form button {
+  padding: 12px 25px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #222;
+}
+
+.top-3-companies h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.top-3-companies .company-cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.top-3-companies .company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
