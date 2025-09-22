@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Login - TopBedrijf</title>
-  <link rel="stylesheet" href="/css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopBedrijf - Startpagina</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="logo-container">
-      <img src="logo.png" alt="TopBedrijf Logo" class="logo" />
-      <span class="logo-text">TopBedrijf</span>
-    </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="about.html">over ons</a></li>
-        <li><a href="submit.html">bedrijf laten beoordelen</a></li>
-        <li><a href="login.html" class="active">login</a></li>
-      </ul>
+  <!-- Navigatie -->
+  <header>
+    <div class="logo">🌿 TopBedrijf</div>
+    <nav>
+      <a href="about.html">Over Ons</a>
+      <a href="index.html" class="active">Bedrijven Zoeken</a>
+      <a href="login.html" class="btn">Inloggen</a>
     </nav>
   </header>
 
-  <main class="login-main">
-    <h1>Login</h1>
-    <form class="login-form" action="#" method="post">
-      <input type="email" name="email" placeholder="Email" required />
-      <input type="password" name="password" placeholder="wachtwoord" required />
-      <button type="submit">Inloggen</button>
-    </form>
-    <p class="signup-prompt">Nog niet aangemeld? <a href="signup.html">Meld je aan</a></p>
-  </main>
+  <!-- Hero zoek -->
+  <section class="hero">
+    <h1>Vind Bedrijfsrecensies</h1>
+    <p>Doorzoek onze database van duizenden bedrijfsprofielen en lees echte ervaringen van professionals.</p>
+    <input type="text" placeholder="Zoek op bedrijfsnaam, branche, locatie...">
+  </section>
+
+  <!-- Populaire bedrijven -->
+  <section class="grid">
+    <h2>Populaire Bedrijven</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Innovatie Technieken BV</h3>
+        <p>⭐ 4.7 (345 beoordelingen)</p>
+        <p>Toonaangevend in softwareoplossingen...</p>
+        <a href="#">Bekijk Profiel →</a>
+      </div>
+      <div class="card">
+        <h3>Groene Energie Nederland</h3>
+        <p>⭐ 4.9 (110 beoordelingen)</p>
+        <p>Pionier in duurzame wind- en zonneprojecten...</p>
+        <a href="#">Bekijk Profiel →</a>
+      </div>
+      <!-- meer cards... -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TopBedrijf - Alle rechten voorbehouden</p>
+  </footer>
 </body>
 </html>
