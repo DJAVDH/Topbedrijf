@@ -4,47 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TopBedrijf - Over Ons</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+  <!-- Navigatie -->
   <header>
-    <div class="logo">🌿 TopBedrijf</div>
+    <div class="logo">Top<span>Bedrijf</span></div>
     <nav>
       <a href="about.html" class="active">Over Ons</a>
       <a href="index.html">Bedrijven Zoeken</a>
-      <a href="login.html" class="btn">Inloggen</a>
+      <a href="login.html" class="btn-login">Inloggen</a>
     </nav>
   </header>
 
-  <section class="hero two-col">
-    <div>
+  <!-- Hero sectie -->
+  <section class="hero two-col container">
+    <div class="hero-text">
       <h1>Ontdek de Transparantie van TopBedrijf</h1>
-      <p>Wij geloven in eerlijke feedback. Ons platform verbindt werknemers met werkgevers door middel van authentieke beoordelingen.</p>
-      <a href="index.html" class="btn">Ontdek Bedrijven</a>
+      <p>
+        Bij TopBedrijf geloven we in de kracht van eerlijke feedback.  
+        Ons platform verbindt werknemers met potentiële werkgevers door middel van authentieke bedrijfsbeoordelingen.  
+        Wij streven ernaar om een open en inzichtelijke arbeidsmarkt te creëren waar iedereen weloverwogen beslissingen kan nemen over hun carrière.
+      </p>
+      <a href="index.html" class="btn-primary">Ontdek Bedrijven</a>
     </div>
-    <img src="team.jpg" alt="Zakelijk team">
+    <div class="hero-img">
+      <img src="team.jpg" alt="Zakelijke vergadering">
+    </div>
   </section>
 
-  <section class="values">
+  <!-- Kernwaarden -->
+  <section class="values container">
     <h2>Onze Kernwaarden</h2>
     <div class="cards">
-      <div class="card"><h3>🌍 Transparantie</h3><p>Eerlijke en open communicatie...</p></div>
-      <div class="card"><h3>✅ Authenticiteit</h3><p>Elke beoordeling komt van echte werknemers...</p></div>
-      <div class="card"><h3>💡 Empowerment</h3><p>Werzoekenden nemen betere beslissingen...</p></div>
+      <div class="card">
+        <h3>💡 Transparantie</h3>
+        <p>Wij geloven dat eerlijke en open communicatie de basis vormt voor een succesvolle carrière. TopBedrijf biedt ongefilterde inzichten.</p>
+      </div>
+      <div class="card">
+        <h3>✅ Authenticiteit</h3>
+        <p>Elke beoordeling op ons platform komt van echte werknemers en we zorgen voor de integriteit van alle bijdragen.</p>
+      </div>
+      <div class="card">
+        <h3>🌱 Empowerment</h3>
+        <p>Wij stellen werkzoekenden in staat om geïnformeerde beslissingen te nemen en werkgevers om hun merk op te bouwen.</p>
+      </div>
     </div>
   </section>
 
-  <section class="steps">
+  <!-- Hoe het werkt -->
+  <section class="steps container">
     <h2>Hoe Het Werkt</h2>
-    <ol>
-      <li><strong>Bedrijf Beoordelen</strong> – Deel uw ervaringen</li>
-      <li><strong>Beoordelingen Zoeken</strong> – Vind inzichten</li>
-      <li><strong>Carrière Keuzes Maken</strong> – Neem de beste beslissingen</li>
-    </ol>
+    <div class="steps-grid">
+      <div class="step">
+        <span class="step-number">1</span>
+        <h3>Bedrijf Beoordelen</h3>
+        <p>Deel uw ervaringen en inzicht in uw huidige of voormalige werkgever.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <h3>Beoordelingen Zoeken</h3>
+        <p>Vind gedetailleerde beoordelingen en inzichten over duizenden bedrijven.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">3</span>
+        <h3>Carrière Keuzes Maken</h3>
+        <p>Gebruik de verzamelde informatie om de beste carrièremove te maken.</p>
+      </div>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 TopBedrijf</p>
+    <div class="footer-links">
+      <a href="#">Bedrijf</a>
+      <a href="#">Bronnen</a>
+      <a href="#">Juridisch</a>
+    </div>
+    <div class="footer-icons">
+      <span>📘</span>
+      <span>💼</span>
+      <span>📜</span>
+    </div>
   </footer>
 </body>
 </html>

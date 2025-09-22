@@ -3,50 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TopBedrijf - Startpagina</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <title>TopBedrijf - Bedrijven Zoeken</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigatie -->
   <header>
-    <div class="logo">🌿 TopBedrijf</div>
+    <div class="logo">Top<span>Bedrijf</span></div>
     <nav>
       <a href="about.html">Over Ons</a>
       <a href="index.html" class="active">Bedrijven Zoeken</a>
-      <a href="login.html" class="btn">Inloggen</a>
+      <a href="login.html" class="btn-login">Inloggen</a>
     </nav>
   </header>
 
   <!-- Hero zoek -->
-  <section class="hero">
+  <main class="container">
     <h1>Vind Bedrijfsrecensies</h1>
-    <p>Doorzoek onze database van duizenden bedrijfsprofielen en lees echte ervaringen van professionals.</p>
-    <input type="text" placeholder="Zoek op bedrijfsnaam, branche, locatie...">
-  </section>
+    <p class="intro">
+      Doorzoek onze database van duizenden bedrijfsprofielen en lees echte ervaringen van professionals over werkgevers in diverse sectoren.
+    </p>
+    <input type="text" class="search" placeholder="Zoek op bedrijfsnaam, branche, locatie of trefwoord...">
 
-  <!-- Populaire bedrijven -->
-  <section class="grid">
-    <h2>Populaire Bedrijven</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Innovatie Technieken BV</h3>
-        <p>⭐ 4.7 (345 beoordelingen)</p>
-        <p>Toonaangevend in softwareoplossingen...</p>
-        <a href="#">Bekijk Profiel →</a>
-      </div>
-      <div class="card">
-        <h3>Groene Energie Nederland</h3>
-        <p>⭐ 4.9 (110 beoordelingen)</p>
-        <p>Pionier in duurzame wind- en zonneprojecten...</p>
-        <a href="#">Bekijk Profiel →</a>
-      </div>
-      <!-- meer cards... -->
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 TopBedrijf - Alle rechten voorbehouden</p>
-  </footer>
-</body>
-</html>
+    <!-- Populaire bedrijven -->
+    <section class="popular">
+      <h2>Populaire Bedrijven</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Innovatie Technieken BV</h3>
+          <p class="category">Software Ontwikkeling</p>
+          <p class="rating">⭐ 4.7 (345 beoordelingen)</p>
+          <p class="desc">Toonaangevend in de ontwikkeling van maatwerk softwareoplossingen voor diverse sectoren.</p>
+          <a href="#" class="btn-card">Bekijk Profiel</a>
+        </div>
+        <div class="card">
+          <h3>Groene Energie Nederland</h3>
+          <p class="category">Duurzame Energie</p>
+          <p class="rating">⭐ 4.9 (110 beoordelingen)</p>
+          <p class="desc">Pionier in duurzame energieprojecten, gespecialiseerd
